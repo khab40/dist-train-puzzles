@@ -1,0 +1,55 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Distributed Training Puzzles</title>
+  <desc id="desc">GitHub README banner for a PyTorch Distributed training assignment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="0.55" stop-color="#16313B"/>
+      <stop offset="1" stop-color="#1D4B46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="138" y1="252" x2="1030" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F2C14E"/>
+      <stop offset="0.48" stop-color="#2EC4B6"/>
+      <stop offset="1" stop-color="#F25F5C"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <path d="M0 278C175 236 300 256 420 280C574 311 704 342 910 288C1058 249 1162 204 1280 216V360H0V278Z" fill="#0D1217" opacity="0.34"/>
+  <path d="M95 245C200 120 348 95 491 176C643 262 758 274 911 135C992 61 1092 42 1190 86" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" opacity="0.88"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="154" cy="226" r="35" fill="#F2C14E"/>
+    <circle cx="338" cy="139" r="35" fill="#2EC4B6"/>
+    <circle cx="534" cy="197" r="35" fill="#F25F5C"/>
+    <circle cx="735" cy="245" r="35" fill="#F2C14E"/>
+    <circle cx="927" cy="121" r="35" fill="#2EC4B6"/>
+    <circle cx="1118" cy="64" r="35" fill="#F25F5C"/>
+  </g>
+
+  <g opacity="0.75">
+    <path d="M154 226L338 139L534 197L735 245L927 121L1118 64" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10 12"/>
+    <path d="M154 226L534 197M338 139L735 245M534 197L927 121M735 245L1118 64" stroke="#FFFFFF" stroke-width="1.5" opacity="0.35"/>
+  </g>
+
+  <text x="86" y="98" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="800" letter-spacing="0">Distributed Training Puzzles</text>
+  <text x="90" y="144" fill="#D7F7F2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="500" letter-spacing="0">Ring AllReduce · Tensor Parallelism · Ulysses · Ring Attention · Zero Bubble Pipelines</text>
+
+  <g transform="translate(91 282)">
+    <rect x="0" y="0" width="164" height="42" rx="8" fill="#FFFFFF" opacity="0.12"/>
+    <text x="20" y="28" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="0">PyTorch</text>
+    <text x="92" y="28" fill="#2EC4B6" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="800" letter-spacing="0">Distributed</text>
+  </g>
+  <g transform="translate(273 282)">
+    <rect x="0" y="0" width="111" height="42" rx="8" fill="#FFFFFF" opacity="0.12"/>
+    <text x="20" y="28" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="0">CPU Gloo</text>
+  </g>
+  <g transform="translate(402 282)">
+    <rect x="0" y="0" width="124" height="42" rx="8" fill="#FFFFFF" opacity="0.12"/>
+    <text x="20" y="28" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="0">100 points</text>
+  </g>
+</svg>
+
