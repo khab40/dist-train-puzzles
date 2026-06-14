@@ -1,4 +1,4 @@
-![Distributed Training Puzzles](docs/banner.svg)
+![Distributed Training Puzzles](docs/banner.png)
 
 # Distributed Training Puzzles
 
@@ -40,7 +40,7 @@ The exercises focus on:
 ├── CHANGELOG.md
 ├── docs/
 │   ├── assignment.md
-│   └── banner.svg
+│   └── banner.png
 └── src/
     └── Distributed_Training_Puzzles.ipynb
 ```
